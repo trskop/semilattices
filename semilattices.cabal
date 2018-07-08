@@ -17,7 +17,9 @@ extra-source-files:
   ChangeLog.md
 
 library
-  exposed-modules:     Data.Semilattice.Bound
+  exposed-modules:     Data.Semigroup.Join
+                     , Data.Semigroup.Meet
+                     , Data.Semilattice.Bound
                      , Data.Semilattice.Join
                      , Data.Semilattice.Lower
                      , Data.Semilattice.Meet
